@@ -1,0 +1,159 @@
+.carousel-item{
+    height: 100vh;
+    width: 100vw;
+    background-position: bottom;
+}
+.navbar{
+    background-color: rgb(240, 193, 175);
+    width: 100vw;
+
+}
+.navbar .nav{
+    padding: 10px;
+    color: black;
+    margin: auto;
+    
+}
+.navbar .nav li {
+    font-size: 29px;
+    
+    font-family:cursive;
+}
+.navbar .nav li  a{
+    color: black;
+    text-decoration: none;
+}
+#cart{
+    margin-left: 27%;
+    margin-top: -45%;
+}
+#box{
+    margin-left: 54%;
+    margin-top: -53%;  
+}
+#car{
+    margin-left: 81%;
+    margin-top: -52.5%;  
+}
+
+
+section{
+    display: flex;
+    margin-left: 5%;
+   
+
+}
+section .cart{
+    width: 270px;
+    height: 220px;
+    font-size: 20px;
+    border: 2px solid black;
+    margin-left: 10px;
+    text-align: center;
+    
+
+}
+ section img{
+    height: 220px;
+    width: 270px;
+}
+.gallery{
+    display: flex;
+    margin-left: -97%;
+    align-self: flex-end;
+    margin-top: 18%;
+}
+.color{
+background-color: rgb(219, 173, 157);
+
+
+}
+.box{
+    display: flex;
+    margin: 250px;
+    background-color: rgb(134, 214, 134);
+  }
+  .para{
+    font-size: 18px;
+    text-align: center;
+    margin:40px;
+  }
+  .carx{
+    width: 302px;
+    height: 302px;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+    text-align: center;
+    
+  
+  }
+   img{
+    height: 300px;
+    width: 300px;
+  }
+  footer{
+    background-color: rgb(46, 42, 42);
+  }
+  .foot{
+  display: flex;
+  margin-top: 30px;
+  margin-top: 30px;
+  justify-content: space-around;
+  }
+  .news{
+  
+    width: 22%;
+    height: 40%;
+    margin-top: 20px;
+  }
+  .latestnews h2{
+   
+    width: 20%; height: 35%;
+  }
+  .tags{
+    width: 22%; height: 70%;   
+  }
+  .bta{
+    margin-left: 0px;
+    margin-top: -30px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 3px;
+    color: white;
+  }
+  
+  .foot h1{
+    color: aqua;
+  }.foot p,h2{
+    color: white;
+  }
+  .flexx{
+    display: flex;
+    text-decoration: none;
+  margin-top: 30px;
+  margin-left: 30%;
+  
+  
+  }.flexx li a:hover{
+    color: aqua;
+  }
+  .flexx li{
+    list-style: none;
+    margin:14px
+  }
+  .flexx li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+  }
+  .address{
+  
+    width: 10%; height: 30%;
+  }.bt{
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 3px;
+    color: white;
+  }

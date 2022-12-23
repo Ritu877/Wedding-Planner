@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: arial, tahoma;
+}
+.photography {
+  color:black;
+  font-size: 30px;
+  font-weight: 500px;
+  padding: 30px;
+  text-align: center;
+  margin:5px;
+}
+nav{
+  width: 100%;
+  height: 100px;
+  background-color:lightpink;
+
+
+
+}
+span{
+    color:black;
+}
+.background{
+    background-image: url(https://images.unsplash.com/photo-1609840533612-0cdfb9418281?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGRlY29yYXRpb24lMjB3ZWRkaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    color:black;
+    font-size:30px;
+    font-weight: 700;
+    padding: 20px;
+    margin:5px;
+    text-align: center;
+    font-family:"lucida handwriting",cursive;
+}
+p{
+    font-size: 30px;
+}
+
+
+.home{
+    text-align: center;
+    margin-top: 110px;
+    color:black;
+    font-size: 44px;
+}
+
+.card{
+  display: flex;
+}
+.cart{
+  width: 700px;
+  height: 400px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 100px;
+  text-align: center;
+  
+
+}
+img{
+  height: 400px;
+  width: 400px;
+}
+.para{
+  font-size: 25px;
+  text-align: center;
+  margin:90px;
+}
+footer{
+  background-color: rgb(46, 42, 42);
+}
+.foot{
+display: flex;
+margin-top: 30px;
+margin-top: 30px;
+justify-content: space-around;
+}
+.news{
+
+  width: 22%;
+  height: 40%;
+  margin-top: 20px;
+}
+.latestnews{
+ 
+  width: 20%; height: 35%;
+}
+.tags{
+  width: 22%; height: 70%;   
+}
+.bta{
+  margin-left: 0px;
+  margin-top: -30px;
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 3px;
+  color: white;
+}
+
+.foot h1{
+  color: aqua;
+}.foot p,h2{
+  color: white;
+}
+.flexx{
+  display: flex;
+  text-decoration: none;
+margin-top: 30px;
+margin-left: 30%;
+
+
+}.flexx li a:hover{
+  color: aqua;
+}
+h3{
+    margin: 30px
+}
+.flexx li{
+  list-style: none;
+  margin:14px
+}
+.flexx li a{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+}
+.btn{
+    padding: 10px;
+    margin: 25px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: crimson;
+    
+  
+  }
+  .btn:hover{
+    background-color: gainsboro;
+    cursor: pointer;
+  }
+.address{
+
+  width: 10%; height: 30%;
+}.bt{
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 3px;
+  color: white;
+}

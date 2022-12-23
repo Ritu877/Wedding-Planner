@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+img::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgva(0,0,0,7);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 60px 32px;
+    background: rgba(192, 71, 71, 0);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0);
+
+}
+.content header{
+    color: rgb(156, 90, 90);
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.field{
+    position: relative;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    background: rgba(255,255,255,0.94);
+
+}
+.field span{
+    color: #222;
+    width: 40px;
+    line-height: 65px;
+}
+.field input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family:sans-serif ;
+}
+.show{
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+    cursor: pointer;
+    color: #222;
+}
+.password:valid ~ .show{
+    display: block;
+}
+}
+.space{
+    margin-top: 16px;
+
+}  
+.pass{
+    text-align: center;
+    margin: 10px 0;
+}
+.pass a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pass:hover a{
+    text-decoration: underline;
+
+}
+input[type="submit"]{
+    background: #3498db;
+    border: 1px solid #2691d9;
+   color: white;
+   font-size: 18px;
+   letter-spacing: 1px;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+   cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: #2691d9;
+
+}
+.login{
+    color: white;
+    margin: 20px 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: -13px 40px 20px -46px;
+}
+.facebook, .Instagram{
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.facebook{
+    margin-left: 94px;
+    background: #426782;
+    border: 1px solid #3e61a8;
+    
+}
+.Instagram{
+    background:#E1396c;
+    border: 1px solid #df2060;
+
+}
+.link i{
+    font-size: 17px;
+
+}
+.link span{
+    font-size: 16px;
+    margin-left: 8px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+.signup{
+    color: rgb(231, 223, 223);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup a:hover{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.signup a{
+    color : black;
+    font-family:Arial, Helvetica, sans-serif;
+}
